@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+body {
+  background-color: #dbe6f3;
+  font-family: "Open Sans";
+}
+/*Encabezado*/
+.Encabezado {
+  height: 400px;
+  background-image: url(../imgs/img2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+/*Barra navegación*/
+.BarraNavegacion {
+  height: 75px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.TituloPrincipal {
+  font-size: 2rem;
+  margin: 15px;
+}
+.Datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px;
+}
+.Datos .Sustentabilidad {
+  font-size: 1.5em;
+}
+.Datos .Contigo {
+  margin: 30px 0;
+  font-size: 2.5em;
+}
+.BarraNavegacion div {
+  margin: 15px;
+}
+.BotonGrisNav {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+.BotonGris {
+  background-color: gray;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+/*Contenido*/
+.Contenido {
+  height: 650px;
+  margin: 75px 100px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.QuienesSomos {
+  height: 200px;
+  background-color: #f4f9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+}
+.QuienesSomos p {
+  margin: 0 60px;
+}
+.QuienesSomos .Principal,
+.VerMas .Principal,
+.Suscripcion .Principal {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.QuienesSomos p,
+.VerMas p {
+  font-size: 1em;
+}
+.VerMas {
+  height: 400px;
+  background-color: #f4f9ff;
+  display: flex;
+  justify-content: center;
+}
+.VerMas img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.VerMas .Imagen {
+  width: 50%;
+}
+.VerMas .Texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 60px;
+  background-color: #f4f9ff;
+}
+/*Pie de Pagina*/
+.PiePagina {
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/*Suscripcion*/
+.Suscripcion {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(192, 192, 192);
+  padding: 40px 0;
+}
+.Entrada {
+  height: 50px;
+  width: 200px;
+}
+.Entrada::placeholder {
+  text-align: center;
+}
+.BotonGrisEntrada {
+  height: 50px;
+  width: 130px;
+  margin-left: 4px;
+  border-radius: 10px;
+  background-color: gray;
+}
